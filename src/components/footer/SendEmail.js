@@ -10,11 +10,20 @@ function SendEmail() {
     const [error, setError] = useState('');
 
     const onHandlerEmailSend = (e) => {
+        e.stopPropagation();
         e.preventDefault();
-        if (email) {
+        const regExp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        setError('');
+
+        if (email && regExp.test(email)) {
             alert(translations.SUCCESS);
-        } else {
+            setEmail('');
+            setError('');
+            return false;
+        } if(email && !regExp.test(email)) {
             setError(translations.ERROR);
+        } else {
+            setError(translations.EMPTY_EMAIL);
         }
     }
 

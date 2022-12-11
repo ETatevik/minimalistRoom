@@ -13,7 +13,8 @@ export const translations = {
     YOUTUBE: "Youtube",
     BRAND: "Dananz",
     SUCCESS: "Email sent successfully",
-    ERROR: "Please input email",
+    EMPTY_EMAIL: "Please input email",
+    ERROR: "You have entered an invalid email address!",
 
 }
 
