@@ -4,14 +4,16 @@ import {MENU} from "./constants";
 
 function AppRouter() {
     return (
-        <>
-            <Routes>
-                {
-                    MENU.map(({id, title, path, element}) =>
-                        <Route key={`${id}_${title}`} path={path} element={element}/>)
-                }
-            </Routes>
-        </>
+        <main className="main_wrapper">
+            <div className="container">
+                <Routes>
+                    {
+                        MENU.map(({id, title, path, element}) =>
+                            <Route key={`${id}_${title}`} path={path} element={element}/>)
+                    }
+                </Routes>
+            </div>
+        </main>
     );
 }
 

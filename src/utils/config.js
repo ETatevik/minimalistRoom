@@ -1,5 +1,3 @@
-import {onHandlerContactUs} from "./help";
-
 export const translations = {
     HOME: "Home",
     ABOUT_US: "About Us",
@@ -79,8 +77,6 @@ export const gallerySectionContent = [
 export const contactUsSectionContent = {
     title: "let's discuss making your interior like a dream place!",
     subTitle: "Contact us below to work together to build your amazing interior",
-    button: translations.CONTACT_US,
-    buttonHandler: onHandlerContactUs
 }
 
 export const footerContent = {
@@ -112,4 +108,4 @@ export const footerContent = {
             title: translations.YOUTUBE
         }
     ]
-}
+};

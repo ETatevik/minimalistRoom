@@ -1,12 +1,119 @@
 @media all and (max-width: 1200px) {
 
 }
+
+@media all and (min-width: 993px) {
+    .btn_burger {
+        display: none
+    }
+}
+
 @media all and (max-width: 992px) {
-    
+    nav {
+        transform: translateX(100%);
+        opacity: 0;
+        pointer-events: none;
+        transition: .1s;
+        position: absolute;
+        top: calc(100% + 15px);
+        width: 100%;
+        right: 0;
+        height: calc(100vh - 100px);
+        background: var(--third-color);
+        padding: 1.5rem 2rem 1.5rem 5rem;
+        overflow-y: auto;
+        z-index: 1000;
+        max-width: fit-content;
+        box-shadow: -3px 5px 5px var(--description-color);
+    }
+    .btn_burger {
+        margin-right: 20px;
+        background: transparent;
+        width: 30px;
+        height: 16px;
+        position: relative;
+    }
+
+    header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .btn_burger:after,.btn_burger:before{
+        content:'';
+    }
+    .btn_burger:after,.btn_burger:before,.burger_item{
+        position:absolute;
+        left:0;
+        width: 100%;
+        height: 2px;
+        background-color: var(--secondary-color);
+        transition:.5s;
+    }
+    .btn_burger:before{
+        top:0;
+    }
+    .burger_item{
+        top:50%;
+        transform: translateY(-50%);
+    }
+    .btn_burger:after{
+        bottom:0
+    }
+
+    .btn_burger.active .burger_item{
+        transform: translateX(-100%);
+        background-color: transparent
+    }
+
+    .btn_burger.active:before{
+        top: 50%;
+        transform: translateY(-50%) rotate(35deg);
+    }
+    .btn_burger.active:after{
+        bottom:50%;
+        transform: translateY(50%) rotate(-35deg);
+    }
+
+    .btn_burger:hover .burger_item {
+        transform: translateY(-50%) translateX(-5px);
+        opacity: 0.5
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    nav.show {
+        transform: translateX(0);
+        opacity: 1;
+        pointer-events: auto;
+        transition: .5s;
+    }
+
+    li.navitem {
+        margin: 12px 0 12px auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
 }
+
 @media all and (max-width: 768px) {
-    
+
 }
+
 @media (max-width: 576px) {
-    
+    .btn_contact_us {
+        padding: 0.6rem 0.8rem;
+        font-size: 12px;
+    }
+
+    .main_logo {
+        max-width: 90px;
+    }
+    .btn_burger {
+        width: 26px;
+        margin-right: 15px;
+    }
 }
