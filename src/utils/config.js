@@ -11,7 +11,10 @@ export const translations = {
     INSTAGRAM: "Instagram",
     TIKTOK: "TikTok",
     YOUTUBE: "Youtube",
-    BRAND: "Dananz"
+    BRAND: "Dananz",
+    SUCCESS: "Email sent successfully",
+    ERROR: "Please input email",
+
 }
 
 export const heroSectionContent = {
@@ -91,25 +94,25 @@ export const footerContent = {
     socialLinks: [
         {
             id: 0,
-            icon: "assets/images/icon/facebook.svg",
+            icon: "assets/images/icons/facebook.svg",
             url: "https://www.facebook.com/",
             title: translations.FACEBOOK
         },
         {
             id: 1,
-            icon: "assets/images/icon/instagram.svg",
+            icon: "assets/images/icons/instagram.svg",
             url: "https://www.instagram.com/",
             title: translations.INSTAGRAM
         },
         {
             id: 2,
-            icon: "assets/images/icon/tiktok.svg",
+            icon: "assets/images/icons/tiktok.svg",
             url: "https://www.tiktok.com/",
             title: translations.TIKTOK
         },
         {
             id: 3,
-            icon: "assets/images/icon/youtube.svg",
+            icon: "assets/images/icons/youtube.svg",
             url: "https://www.youtube.com/",
             title: translations.YOUTUBE
         }
