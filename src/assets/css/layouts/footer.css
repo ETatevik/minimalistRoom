@@ -18,6 +18,11 @@ footer{padding-top:80px;padding-bottom:80px}
 .social_links{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .social_links a{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;width:32px;height:32px;background-color:var(--third-color);border:1px solid var(--third-color);border-radius:50%;padding:3px;margin-top:11px;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
 .social_links >li:not(:last-of-type){margin-right:25px}
-.social_links a img{-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
+.social_links a .soc_icon{-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
 .social_links a:hover{background-color:var(--secondary-color)}
-.social_links a:hover > img{-webkit-filter:invert(1);filter:invert(1)}
+.social_links a:hover > .soc_icon{-webkit-filter:invert(1);filter:invert(1)}
+.soc_icon{display:inline-flex;width:100%;height:100%;background-position:center;background-repeat:no-repeat;background-size:cover}
+.icon_fb{background-image:url("../../images/icons/facebook.svg")}
+.icon_ins{background-image:url("../../images/icons/instagram.svg")}
+.icon_tik{background-image:url("../../images/icons/tiktok.svg")}
+.icon_youtube{background-image:url("../../images/icons/youtube.svg")}

@@ -95,25 +95,25 @@ export const footerContent = {
     socialLinks: [
         {
             id: 0,
-            icon: "assets/images/icons/facebook.svg",
+            icon: "icon_fb",
             url: "https://www.facebook.com/",
             title: translations.FACEBOOK
         },
         {
             id: 1,
-            icon: "assets/images/icons/instagram.svg",
+            icon: "icon_ins",
             url: "https://www.instagram.com/",
             title: translations.INSTAGRAM
         },
         {
             id: 2,
-            icon: "assets/images/icons/tiktok.svg",
+            icon: "icon_tik",
             url: "https://www.tiktok.com/",
             title: translations.TIKTOK
         },
         {
             id: 3,
-            icon: "assets/images/icons/youtube.svg",
+            icon: "icon_youtube",
             url: "https://www.youtube.com/",
             title: translations.YOUTUBE
         }

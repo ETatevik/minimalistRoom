@@ -13,12 +13,10 @@ function SocialLinks() {
             {socialLinks?.length > 0 &&
                 <ul className="flex social_links">
                     {socialLinks.map(({id, title, url, icon}) => {
-                        const iconUrl = require(`../../${icon}`);
-
                         return (
                             <li key={`${id}__${title}__${url}`}>
                                 <a href={url} title={title} target="_blank" rel="noreferrer">
-                                    {iconUrl && <img src={iconUrl} alt={title}/>}
+                                    {icon && <i className={`soc_icon ${icon}`}/>}
                                 </a>
                             </li>)
                     })}
