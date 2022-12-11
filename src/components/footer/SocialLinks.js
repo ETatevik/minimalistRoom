@@ -17,7 +17,7 @@ function SocialLinks() {
 
                         return (
                             <li key={`${id}__${title}__${url}`}>
-                                <a href={url} title={title} target="_blank">
+                                <a href={url} title={title} target="_blank" rel="noreferrer">
                                     {iconUrl && <img src={iconUrl} alt={title}/>}
                                 </a>
                             </li>)
