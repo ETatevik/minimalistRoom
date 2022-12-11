@@ -9,7 +9,7 @@ function InformationSection() {
                 <div className="info_grid flex row">
                     {informationSectionContent.map(({id, title, descriptions, date, tag}) => {
                         return (
-                            <div key={`${id}_${title}_infoSection`} className="info_card col col-md-6">
+                            <div key={`${id}_${title}_infoSection`} className="info_card col-12 col-md-6">
                                 {title && <h2 className="info_card-title">{title}</h2>}
                                 {descriptions?.length > 0 && <div className="description info_card-description">
                                     {descriptions.map((item, index) => <p key={`${id}_${index}_${title}`}>{item}</p>)}
