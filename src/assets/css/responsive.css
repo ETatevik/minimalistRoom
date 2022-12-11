@@ -1,201 +1,49 @@
 @media all and (max-width: 1115px) {
-    .contact_box-right {
-        max-width: 37%;
-    }
-
-    .contact_box-left {
-        max-width: 57%;
-    }
+    .contact_box-right{max-width:37%}
+    .contact_box-left{max-width:57%}
 }
 @media all and (min-width: 993px) {
-    .btn_burger {
-        display: none
-    }
+    .btn_burger{display:none}
 }
-
 @media all and (max-width: 992px) {
-    /*html{overflow-x: hidden}*/
-    nav {
-        transform: translateX(100%);
-        opacity: 0;
-        pointer-events: none;
-        transition: .1s;
-        position: absolute;
-        top: calc(100% + 15px);
-        width: 100%;
-        right: 0;
-        height: calc(100vh - 100px);
-        background: var(--third-color);
-        padding: 1.5rem 2rem 1.5rem 5rem;
-        overflow-y: auto;
-        z-index: 1000;
-        max-width: fit-content;
-        box-shadow: -3px 5px 5px var(--description-color);
-    }
-    .btn_burger {
-        margin-right: 20px;
-        background: transparent;
-        width: 30px;
-        height: 16px;
-        position: relative;
-    }
-
-    header {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .btn_burger:after,.btn_burger:before{
-        content:'';
-    }
-    .btn_burger:after,.btn_burger:before,.burger_item{
-        position:absolute;
-        left:0;
-        width: 100%;
-        height: 2px;
-        background-color: var(--secondary-color);
-        transition:.5s;
-    }
-    .btn_burger:before{
-        top:0;
-    }
-    .burger_item{
-        top:50%;
-        transform: translateY(-50%);
-    }
-    .btn_burger:after{
-        bottom:0
-    }
-
-    .btn_burger.active .burger_item{
-        transform: translateX(-100%);
-        background-color: transparent
-    }
-
-    .btn_burger.active:before{
-        top: 50%;
-        transform: translateY(-50%) rotate(35deg);
-    }
-    .btn_burger.active:after{
-        bottom:50%;
-        transform: translateY(50%) rotate(-35deg);
-    }
-
-    .btn_burger:hover .burger_item {
-        transform: translateY(-50%) translateX(-5px);
-        opacity: 0.5
-    }
-
-    .navbar {
-        position: relative;
-    }
-
-    nav.show {
-        transform: translateX(0);
-        opacity: 1;
-        pointer-events: auto;
-        transition: .5s;
-    }
-
-    li.navitem {
-        margin: 12px 0 12px auto;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-    .info_card-more > span:not(:last-of-type){
-        margin-right: 15px;
-    }
-    .contact_box-right,.contact_box-left  {
-        max-width: 100%;
-    }
+    nav{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);opacity:0;pointer-events:none;-webkit-transition:.1s;-o-transition:.1s;transition:.1s;position:absolute;top:calc(100% + 15px);width:100%;right:0;height:calc(100vh - 100px);background:var(--third-color);padding:1.5rem 2rem 1.5rem 5rem;overflow-y:auto;z-index:1000;max-width:-webkit-fit-content;max-width:-moz-fit-content;max-width:fit-content;-webkit-box-shadow:-3px 5px 5px var(--description-color);box-shadow:-3px 5px 5px var(--description-color)}
+    .btn_burger{margin-right:20px;background:transparent;width:30px;height:16px;position:relative}
+    header{padding-top:20px;padding-bottom:20px}
+    .btn_burger:after,.btn_burger:before{content:''}
+    .btn_burger:after,.btn_burger:before,.burger_item{position:absolute;left:0;width:100%;height:2px;background-color:var(--secondary-color);-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
+    .btn_burger:before{top:0}
+    .burger_item{top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+    .btn_burger:after{bottom:0}
+    .btn_burger.active .burger_item{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);background-color:transparent}
+    .btn_burger.active:before{top:50%;-webkit-transform:translateY(-50%) rotate(35deg);-ms-transform:translateY(-50%) rotate(35deg);transform:translateY(-50%) rotate(35deg)}
+    .btn_burger.active:after{bottom:50%;-webkit-transform:translateY(50%) rotate(-35deg);-ms-transform:translateY(50%) rotate(-35deg);transform:translateY(50%) rotate(-35deg)}
+    .btn_burger:hover .burger_item{-webkit-transform:translateY(-50%) translateX(-5px);-ms-transform:translateY(-50%) translateX(-5px);transform:translateY(-50%) translateX(-5px);opacity:.5}
+    .navbar{position:relative}
+    nav.show{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0);opacity:1;pointer-events:auto;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
+    li.navitem{margin:12px 0 12px auto}
+    nav ul{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+    .info_card-more > span:not(:last-of-type){margin-right:15px}
+    .contact_box-right,.contact_box-left{max-width:100%}
 }
-
 @media all and (max-width: 768px) {
-
-    .footer_box-right {
-        margin: 25px auto 0;
-    }
-
-    .footer_box-left {
-        max-width: 440px;
-        margin: auto;
-    }
+    .footer_box-right{margin:25px auto 0}
+    .footer_box-left{max-width:440px;margin:auto}
 }
-
 @media (max-width: 576px) {
-    .btn_contact_us {
-        padding: 0.6rem 0.8rem;
-        font-size: 12px;
-    }
-
-    .main_logo {
-        max-width: 90px;
-    }
-    .btn_burger {
-        width: 26px;
-        margin-right: 15px;
-    }
-    .hero_title {
-        font-size: 2.5rem;
-        line-height: 3rem;
-    }
-
-    .description {
-        font-size: 1rem;
-        line-height: 1.8rem;
-    }
-
-    .info_card-more {
-        margin-top: 30px;
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
-    .info_card-description {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
-    .info_card {
-        margin-top: 40px;
-    }
-
-    .info_section {
-        padding-top: 60px;
-    }
-
-    .info_card-title {
-        font-size: 1.5rem;
-        line-height: 2rem;
-    }
-    .contact_box-title {
-        font-size: 2rem;
-        line-height: 2.5rem;
-    }
-
-    .contact_box-subtitle {
-        font-size: 1rem;
-        line-height: 1.5rem;
-        margin-top: 25px;
-    }
-    .footer_box_title {
-        font-size: 2rem;
-        line-height: 2.5rem;
-    }
-
-    .send_email_box-title {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
-    .send_email_box input[type=email] {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
-    .social_links_title {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
+    .btn_contact_us{padding:.6rem .8rem;font-size:12px}
+    .main_logo{max-width:90px}
+    .btn_burger{width:26px;margin-right:15px}
+    .hero_title{font-size:2.5rem;line-height:3rem}
+    .description{font-size:1rem;line-height:1.8rem}
+    .info_card-more{margin-top:30px;font-size:1rem;line-height:1.5rem}
+    .info_card-description{font-size:1rem;line-height:1.5rem}
+    .info_card{margin-top:40px}
+    .info_section{padding-top:60px}
+    .info_card-title{font-size:1.5rem;line-height:2rem}
+    .contact_box-title{font-size:2rem;line-height:2.5rem}
+    .contact_box-subtitle{font-size:1rem;line-height:1.5rem;margin-top:25px}
+    .footer_box_title{font-size:2rem;line-height:2.5rem}
+    .send_email_box-title{font-size:1rem;line-height:1.5rem}
+    .send_email_box input[type=email]{font-size:1rem;line-height:1.5rem}
+    .social_links_title{font-size:1rem;line-height:1.5rem}
 }

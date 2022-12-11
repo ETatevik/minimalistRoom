@@ -1,134 +1,26 @@
-.hero_title {
-    margin: 0;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 78px;
-    color: var(--black);
-    font-family: 'Poppins-Bold', sans-serif;
-}
-
-.main_wrapper {
-    padding-top: 60px;
-}
-.description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    width: 100%;
-}
-
-.hero_description {
-    max-width: 518px;
-    margin: 40px auto 0;
-    color: var(--black);
-}
-
-.hero_picture {
-    width: 100%;
-    margin-top: 53px;
-    display: inline-flex;
-}
-.info_section {
-    padding-top: 80px;
-}
-.info_card-more {margin-top: auto;padding-top: 20px;font-weight: 400;font-size: 18px;line-height: 29px;color: var(--description-color);}
-
-.info_grid {
-    align-items: stretch;
-}
-
-.info_card-more > span:not(:last-of-type) {
-    margin-right: 80px;
-}
-
-.info_card-more > span {
-    display: inline-block;
-}
-.info_card {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.info_card-title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 34px;
-    font-family: 'Poppins-SemiBold', sans-serif;
-    color: var(--hero-color);
-}
-
-.info_card-description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    color: var(--description-color);
-    margin-top: 24px;
-}
-
-.info_card-description p:not(:first-of-type) {
-    margin-top: 30px;
-}
-.gallery_section {
-    padding-top: 49px;
-}
-
-.gallery_grid  > div {
-    display: inline-flex;
-    margin-top: 32px;
-}
-
-.gallery_grid > div > img {
-    width: 100%;
-    max-width: 100%;
-}
-.contact_us_wrapper {
-    margin-top: 100px;
-    background-color: var(--secondary-color);
-}
-
-.contact_box {
-    padding-top: 41px;
-    padding-bottom: 40px;
-}
-
-.contact_box-left {
-    width: 100%;
-    max-width: 613px;
-}
-
-.contact_box-title {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 61px;
-    color: var(--white);
-    font-family: 'Poppins-SemiBold', sans-serif;
-}
-
-.contact_box-right {
-    margin-left: auto;
-    width: 100%;
-    max-width: 432px;
-}
-
-.contact_box-subtitle {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    color: var(--third-color);
-}
-
-.contact_box-subtitle ~ .btn_contact_us {
-    margin-top: 20px;
-}
-
-.btn_light {
-    background-color: var(--white);
-    color: var(--hero-color);
-}
-
-.btn_light:hover {
-    background-color: var(--third-color);
-    color: var(--secondary-color);
-    border-color: var(--white);
-}
+.hero_title{margin:0;font-weight:700;font-size:56px;line-height:78px;color:var(--black);font-family:'Poppins-Bold',sans-serif}
+.main_wrapper{padding-top:60px}
+.description{font-weight:400;font-size:18px;line-height:29px;width:100%}
+.hero_description{max-width:518px;margin:40px auto 0;color:var(--black)}
+.hero_picture{width:100%;margin-top:53px;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}
+.info_section{padding-top:80px}
+.info_card-more{margin-top:auto;padding-top:20px;font-weight:400;font-size:18px;line-height:29px;color:var(--description-color)}
+.info_grid{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}
+.info_card-more > span:not(:last-of-type){margin-right:80px}
+.info_card-more > span{display:inline-block}
+.info_card{margin-top:20px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.info_card-title{font-weight:600;font-size:24px;line-height:34px;font-family:'Poppins-SemiBold',sans-serif;color:var(--hero-color)}
+.info_card-description{font-weight:400;font-size:18px;line-height:29px;color:var(--description-color);margin-top:24px}
+.info_card-description p:not(:first-of-type){margin-top:30px}
+.gallery_section{padding-top:49px}
+.gallery_grid > div{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;margin-top:32px}
+.gallery_grid > div > img{width:100%;max-width:100%}
+.contact_us_wrapper{margin-top:100px;background-color:var(--secondary-color)}
+.contact_box{padding-top:41px;padding-bottom:40px}
+.contact_box-left{width:100%;max-width:613px}
+.contact_box-title{font-weight:600;font-size:36px;line-height:61px;color:var(--white);font-family:'Poppins-SemiBold',sans-serif}
+.contact_box-right{margin-left:auto;width:100%;max-width:432px}
+.contact_box-subtitle{font-weight:400;font-size:18px;line-height:29px;color:var(--third-color)}
+.contact_box-subtitle ~ .btn_contact_us{margin-top:20px}
+.btn_light{background-color:var(--white);color:var(--hero-color)}
+.btn_light:hover{background-color:var(--third-color);color:var(--secondary-color);border-color:var(--white)}

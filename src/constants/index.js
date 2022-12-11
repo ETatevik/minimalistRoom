@@ -31,7 +31,7 @@ export const MENU = [
     }
 ];
 
-export const menuActiveClassName = "navitem_active";
+export const MENU_ACTIVE_CLASS_NAME = "navitem_active";
 
 export const MODE_TYPE = {
     DARK: "dark",

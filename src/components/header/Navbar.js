@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import {MENU, menuActiveClassName} from "../../constants";
+import {MENU, MENU_ACTIVE_CLASS_NAME} from "../../constants";
 
 function Navbar({show, onCloseNavbar}) {
     const showNavbar = show ? 'show': '';
@@ -13,7 +13,7 @@ function Navbar({show, onCloseNavbar}) {
                         return (
                             <li className="navitem" key={`${id}_${title}_navbar`}>
                                 <NavLink onClick={onCloseNavbar} to={path} className={({isActive}) =>
-                                    isActive ? menuActiveClassName : ''}>
+                                    isActive ? MENU_ACTIVE_CLASS_NAME : ''}>
                                     {title}
                                 </NavLink>
                             </li>

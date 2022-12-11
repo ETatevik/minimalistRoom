@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Navbar from "./Navbar";
 import Logo from "../Logo";
 import {NavLink} from "react-router-dom";
-import {menuActiveClassName, MODE_TYPE} from "../../constants";
+import {MENU_ACTIVE_CLASS_NAME, MODE_TYPE} from "../../constants";
 import ContactUsButton from "../ContactUsButton";
 
 function Header() {
@@ -19,7 +19,7 @@ function Header() {
             <div className="container">
                 <div className="navbar flex aic">
                     <NavLink onClick={onCloseNavbar} to="/" className={({isActive}) =>
-                        isActive ? menuActiveClassName : ''}>
+                        isActive ? MENU_ACTIVE_CLASS_NAME : ''}>
                         <Logo/>
                     </NavLink>
                     <div className="navbar_right ml-auto flex aic">
