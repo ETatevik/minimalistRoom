@@ -1,9 +1,17 @@
 import React from 'react';
+import './assets/css/main.css';
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import AppRouter from "./AppRouter";
+import {BrowserRouter} from "react-router-dom";
+
 function App() {
   return (
-    <>
-    Start
-    </>
+    <BrowserRouter>
+      <Header/>
+      <AppRouter/>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 
