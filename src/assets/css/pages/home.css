@@ -70,3 +70,16 @@
 .info_card-description p:not(:first-of-type) {
     margin-top: 30px;
 }
+.gallery_section {
+    padding-top: 49px;
+}
+
+.gallery_grid  > div {
+    display: inline-flex;
+    margin-top: 32px;
+}
+
+.gallery_grid > div > img {
+    width: 100%;
+    max-width: 100%;
+}
