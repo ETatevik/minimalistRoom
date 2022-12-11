@@ -9,7 +9,6 @@
 
 .main_wrapper {
     padding-top: 60px;
-    padding-bottom: 100px;
 }
 .description {
     font-weight: 400;
@@ -82,4 +81,54 @@
 .gallery_grid > div > img {
     width: 100%;
     max-width: 100%;
+}
+.contact_us_wrapper {
+    margin-top: 100px;
+    background-color: var(--secondary-color);
+}
+
+.contact_box {
+    padding-top: 41px;
+    padding-bottom: 40px;
+}
+
+.contact_box-left {
+    width: 100%;
+    max-width: 613px;
+}
+
+.contact_box-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 61px;
+    color: var(--white);
+    font-family: 'Poppins-SemiBold', sans-serif;
+}
+
+.contact_box-right {
+    margin-left: auto;
+    width: 100%;
+    max-width: 432px;
+}
+
+.contact_box-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: var(--third-color);
+}
+
+.contact_box-subtitle ~ .btn_contact_us {
+    margin-top: 20px;
+}
+
+.btn_light {
+    background-color: var(--white);
+    color: var(--hero-color);
+}
+
+.btn_light:hover {
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+    border-color: var(--white);
 }

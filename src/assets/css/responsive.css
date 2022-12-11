@@ -1,7 +1,12 @@
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1115px) {
+    .contact_box-right {
+        max-width: 37%;
+    }
 
+    .contact_box-left {
+        max-width: 57%;
+    }
 }
-
 @media all and (min-width: 993px) {
     .btn_burger {
         display: none
@@ -101,6 +106,9 @@
     .info_card-more > span:not(:last-of-type){
         margin-right: 15px;
     }
+    .contact_box-right,.contact_box-left  {
+        max-width: 100%;
+    }
 }
 
 @media all and (max-width: 768px) {
@@ -152,5 +160,15 @@
     .info_card-title {
         font-size: 1.5rem;
         line-height: 2rem;
+    }
+    .contact_box-title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .contact_box-subtitle {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-top: 25px;
     }
 }
