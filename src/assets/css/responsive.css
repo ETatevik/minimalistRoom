@@ -113,6 +113,14 @@
 
 @media all and (max-width: 768px) {
 
+    .footer_box-right {
+        margin: 25px auto 0;
+    }
+
+    .footer_box-left {
+        max-width: 440px;
+        margin: auto;
+    }
 }
 
 @media (max-width: 576px) {
@@ -170,5 +178,24 @@
         font-size: 1rem;
         line-height: 1.5rem;
         margin-top: 25px;
+    }
+    .footer_box_title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .send_email_box-title {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .send_email_box input[type=email] {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .social_links_title {
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
 }

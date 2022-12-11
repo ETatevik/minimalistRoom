@@ -2,9 +2,9 @@ import React from 'react';
 
 function OurTeams() {
     return (
-        <div>
-            OurTeams
-        </div>
+        <section className="container">
+            <h1 className="hero_title">Our Teams</h1>
+        </section>
     );
 }
 

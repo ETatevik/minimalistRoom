@@ -1,0 +1,125 @@
+footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer_box-left > a {
+    display: inline-flex;
+}
+
+.footer_box_title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 61px;
+    margin-top: 12px;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    color: var(--hero-color);
+}
+
+.send_email_box-title {
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: var(--hero-color);
+}
+
+.footer_box-right {
+    width: 100%;
+    max-width: 440px;
+    margin-left: auto;
+}
+
+.send_email_box-title:before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+    background-color: var(--hero-color);
+    border-radius: 50%;
+    vertical-align: baseline;
+}
+.send_email_box input[type=email] {
+    color:var(--description-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    border: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px solid #141414;
+}
+.send_email_box input[type=email]::placeholder {
+    color: var(--third-color);}
+
+.send_email_box form {
+    position: relative;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.btn_send_email {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    width: 23px;
+    height: 9px;
+    background-image: url(../../images/icons/send.svg);
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.send_email_error {
+    margin-top: 10px;
+    color: #b50000;
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+.social_box {
+    margin-top: 39px;
+    margin-left: auto;
+    width: 100%;
+    max-width: fit-content;
+}
+
+.social_links_title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--hero-color);
+}
+
+.social_links {
+    align-items: center;
+}
+
+.social_links a {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    background-color: var(--third-color);
+    border: 1px solid var(--third-color);
+    border-radius: 50%;
+    padding: 3px;
+    margin-top: 11px;
+    transition: 0.3s;
+}
+
+.social_links >li:not(:last-of-type) {
+    margin-right: 25px;
+}
+
+.social_links a img {
+    transition: 0.3s;
+}
+
+.social_links a:hover {
+    background-color: var(--secondary-color);
+}
+
+.social_links a:hover > img {
+    filter: invert(1);
+}

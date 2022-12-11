@@ -2,7 +2,9 @@ import React from 'react';
 
 function AboutUs() {
     return (
-        <div>About Us</div>
+        <section className="container">
+            <h1 className="hero_title">About Us</h1>
+        </section>
     );
 }
 

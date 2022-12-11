@@ -41,9 +41,7 @@ function SendEmail() {
                        placeholder={inputPlaceholder}
                        onChange={onHandlerEmailInput}
                        value={email}/>
-                <button type="submit" onClick={onHandlerEmailSend} className="btn btn_send_email">
-                    <i className="send_icon"></i>
-                </button>
+                <button type="submit" onClick={onHandlerEmailSend} className="btn btn_send_email"></button>
                 {error && <div className="send_email_error">*{error}</div>}
             </form>
         </div>
