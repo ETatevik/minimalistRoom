@@ -23,6 +23,7 @@ export const heroSectionContent = {
 
 export const informationSectionContent = [
     {
+        id: 100,
         title: "Project Overview",
         descriptions: [
             "Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere. Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere. Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere. "
@@ -31,6 +32,7 @@ export const informationSectionContent = [
         tag: "Interior Design - Furnitur"
     },
     {
+        id: 101,
         title: "Design Process",
         descriptions: [
             "Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere. Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.",
@@ -43,31 +45,31 @@ export const informationSectionContent = [
 
 export const gallerySectionContent = [
     {
-        id: 0,
+        id: 10,
         url: "assets/images/gallery1.jpg",
         alt: "Dananz Gallery",
         isFull: false
     },
     {
-        id: 1,
+        id: 11,
         url: "assets/images/gallery2.jpg",
         alt: "Dananz Gallery",
         isFull: false
     },
     {
-        id: 2,
+        id: 12,
         url: "assets/images/gallery3.jpg",
         alt: "Dananz Gallery",
         isFull: true
     },
     {
-        id: 3,
+        id: 13,
         url: "assets/images/gallery4.jpg",
         alt: "Dananz Gallery",
         isFull: false
     },
     {
-        id: 4,
+        id: 14,
         url: "assets/images/gallery5.jpg",
         alt: "Dananz Gallery",
         isFull: false
@@ -90,21 +92,25 @@ export const footerContent = {
         {
             id: 0,
             icon: "assets/images/icon/facebook.svg",
+            url: "https://www.facebook.com/",
             title: translations.FACEBOOK
         },
         {
             id: 1,
             icon: "assets/images/icon/instagram.svg",
+            url: "https://www.instagram.com/",
             title: translations.INSTAGRAM
         },
         {
             id: 2,
             icon: "assets/images/icon/tiktok.svg",
+            url: "https://www.tiktok.com/",
             title: translations.TIKTOK
         },
         {
             id: 3,
             icon: "assets/images/icon/youtube.svg",
+            url: "https://www.youtube.com/",
             title: translations.YOUTUBE
         }
     ]
