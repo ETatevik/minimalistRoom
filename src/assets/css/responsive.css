@@ -3,7 +3,7 @@
     .contact_box-left{max-width:57%}
 }
 @media all and (min-width: 993px) {
-    .btn_burger{display:none}
+    .btn_burger{display:none!important;}
 }
 @media all and (max-width: 992px) {
     nav{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);opacity:0;pointer-events:none;-webkit-transition:.1s;-o-transition:.1s;transition:.1s;position:absolute;top:calc(100% + 15px);width:100%;right:0;height:calc(100vh - 100px);background:var(--third-color);padding:1.5rem 2rem 1.5rem 5rem;overflow-y:auto;z-index:1000;max-width:-webkit-fit-content;max-width:-moz-fit-content;max-width:fit-content;-webkit-box-shadow:-3px 5px 5px var(--description-color);box-shadow:-3px 5px 5px var(--description-color)}
